@@ -1,0 +1,62 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width">
+    <title>Home</title>
+    <link rel="stylesheet" href="Styl.css">
+</head>
+<body>1
+    <div class="hero">
+        <nav>
+            <img src="Obrazki/Logo2.jpg">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Sklep.html">Sklep</a></li>
+                <li><a href="Onas.html">O nas</a></li>
+            </ul>  
+        </nav>
+        <div class="tekst">
+            <h1>Tanio</h1>
+            <h2>kup niewolnika</h2>
+            <h3>Chcesz wykopać wielką dziurę ale budowlańcy chcą za 
+                robotę 6000zł? Żaden problem!</h3>
+            <br>
+            <p>Kup u naz 10 niewolników w niskiej cenie i wykop 
+                aż 5 takich dziur!</p>
+            <br>
+            <h4>Chcesz zjeść coś dobrego ale nie chce ci się gotować?
+                 Żaden problem!</h4> 
+            <br>
+            <p>Kup u nas niewolniczkę która ugotuje 
+                pyszny obiad!</p>
+            <br>
+            <h5>Masz bajzel w domu ale nie chce ci się sprzątać? 
+                Żaden problem!</h5>
+            <br>
+            <p>Zatrudnij niewolników żeby posprzątali
+                całe mieszkanie!
+            </p>
+            <button id="kupteraz" type="button">Kup teraz</button>
+            <button id="Oferta" type="button">Pochodzenie</button>
+            <script>
+                const kupteraz =document.getElementById("kupteraz")
+
+                kupteraz.addEventListener("click", function(e){
+                    window.location.href = "Sklep.html";
+                    
+                });
+                const Oferta =document.getElementById("Oferta")
+
+                Oferta.addEventListener("click", function(e){
+                    window.location.href = "Pochodzenie.html";
+                    
+                });
+            </script>
+        </div>
+        <img src="Obrazki/Logo.png" class="ludek">
+        <div class="pasekboczny">
+            <a href="#">Szeroka gama murzynów</a>
+
+        </div>
+    </div>
+</body>
+</html>

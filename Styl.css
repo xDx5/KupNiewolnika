@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    min-width: 100vh;
+    min-height: 100%;
+    background: linear-gradient(to right,#ffffff,#000000 300%);
+    color: #fff;
+    padding: 100px 18%;
+    position: relative;
+}   
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15xp 8%;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    background: linear-gradient(to right,#ffffff,#000000 300%);
+}
+nav img{
+    width: 100px;
+
+}
+nav ul{
+    flex: 1;
+    text-align: center;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 45;
+    font-weight: 700;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.tekst{
+    margin-top: 11%;
+    max-width: 600px;
+}
+.tekst h1{
+    font-size: 70px;
+    text-align: center;
+    line-height: 90 px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.tekst h2{
+    font-size: 55px;
+    text-align: center;
+    line-height: 90 px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.tekst p{
+    color: #000000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+
+}
+.tekst button{
+    padding: 40px 40px;
+    background: #fff;
+    border: 0;
+    outline: 0;
+    margin-top: 40px;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 35;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+}
+.tekst button:last-child{
+    background: #858685;
+    color: whitesmoke;
+}
+.ludek{
+    width: 350px;
+    position: absolute;
+    right: 15%;
+    top: 35%;
+    z-index: 2;
+}
+.pasekboczny{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 32%;
+    height: 100%;
+    background: rgb(129, 126, 126); 
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.pasekboczny a{
+    color: #000000;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    transform: rotate(90deg);
+    font-weight: 600;
+}
+.pasekboczny a img{
+    height: 40px;
+    margin-left: 20x;
+}
+.tekst h3{
+    font-size: 23px;
+    text-align: center;
+    line-height: 90 px;
+    font-weight: 1000;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.tekst h4{
+    font-size: 23px;
+    text-align: center;
+    line-height: 90 px;
+    font-weight: 1000;
+    margin-bottom: 10px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.tekst h5{
+    font-size: 23px;
+    text-align: center;
+    line-height: 90 px;
+    font-weight: 1000;
+    margin-bottom: 10px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hero h2{
+ color: black;
+ font-size: 30px;
+}
+.hero p{
+    color: black;
+    font-size: 25px;
+}
+.hero ul img{
+    width: 500px;
+    border-top-right-radius: 200px;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+}  

@@ -1,0 +1,75 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width">
+    <title>Sklep</title>
+    <link rel="stylesheet" href="StylSklep.css">
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Sklep.html">Sklep</a></li>
+                <li><a href="Onas.html">O nas</a></li>
+            </ul>
+        </nav>          
+    </div>
+</header>
+
+<main>
+    <section>
+        <h2>Featured Products</h2>
+        <div class="product">
+            <img src="Obrazki/murzyn.jpg">
+            <h3>Murzyn</h3>
+            <p>Duży, ciężki, silny ale posłuszny murzyn. Idealny do ciężkiej pracy fizycznej. Dobry wybór dla kuriera, poniewarz przeniesie każdy ładunek!</p>
+            <button id="koszyk1" type="button">Dodaj do koszyka</button>
+        </div>
+        <div class="product">
+            <img src="Obrazki/Murzynka.jpg">
+            <h3>Murzynka</h3>
+            <p>Idealna do opieki nad dziecimi, sprzątania domu i gotowania. Dobry wybór dla osób wiecznie zapracowanych.</p>
+            <button id="koszyk2" type="button">Dodaj do koszyka</button>
+        </div>
+        <div class="product">
+            <img src="Obrazki/Dziecko.webp">
+            <h3>Dziecko</h3>
+            <p>Dziecko to nic innego jak inwestycja w przyszłość! Masz możliwość wychodowania takiego murzyna jakiego pragniesz!</p>
+            <button id="koszyk3" type="button">Dodaj do koszyka</button>
+        <div class="product">
+            <img src="Obrazki/bicz.jpg">
+            <h3>Bicz na murzyna</h3>
+            <p>Jeśli niespodoba ci się to to zrobił twój newolnik niezawachaj się go urzyć.</p>
+            <button id="koszyk4" type="button">Dodaj do koszyka</button>
+        </div>
+            <script>
+            const koszyk1 =document.getElementById("koszyk1")
+
+            koszyk1.addEventListener("click", function(e){
+                window.location.href = "koszyk.html";
+                
+            });
+            const koszyk2 =document.getElementById("koszyk2")
+
+            koszyk2.addEventListener("click", function(e){
+                window.location.href = "koszyk.html";
+                
+            });
+            const koszyk3 =document.getElementById("koszyk3")
+
+            koszyk3.addEventListener("click", function(e){
+                window.location.href = "koszyk.html";
+                
+            });
+            const koszyk4 =document.getElementById("koszyk4")
+
+            koszyk4.addEventListener("click", function(e){
+                window.location.href = "koszyk.html";
+                
+            });
+        </script>
+        </div>
+    </section>
+</main>
+</body>
+</html>
